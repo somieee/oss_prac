@@ -10,4 +10,9 @@ public class CalcTest {
 			Calc c = new Calc();
 			assertEquals(30, c.add(10,20));
 		}
+
+		public void testSub() {
+			Calc c = new Calc();
+			assertEquals(10, c.sub(30, 30));
+		}
 }
