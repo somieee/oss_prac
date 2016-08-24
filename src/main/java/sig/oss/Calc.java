@@ -12,4 +12,8 @@ public class Calc {
 	public int mul(int x, int y) { //mul method 1, 2
 		return x*y;
 	}
+	
+	public void dec(int x) {
+		r = r-x; // Decrement method
+	}
 }
