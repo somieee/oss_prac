@@ -14,12 +14,12 @@ public class CalcTest {
 	@Test
 		public void testSub() {
 			Calc c = new Calc();
-			assertEquals(10, c.sub(30, 30));
+			assertEquals(0, c.sub(30, 30));
 		}
 
 	@Test
 		public void testMul(){
 			Calc c = new Calc();
-			assetEquals(0, c.mul(100,0));
+			assertEquals(0, c.mul(100,0));
 		}
 }
