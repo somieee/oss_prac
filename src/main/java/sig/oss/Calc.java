@@ -3,7 +3,11 @@
 public class Calc {
 	private:
 		int r = 0;
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> origin/master
 	public int add(int x, int y) { //add method
 		return x+y;
 	}
@@ -16,7 +20,12 @@ public class Calc {
 		return x*y;
 	}
 	
+<<<<<<< HEAD
 	public void inc(int x) {
-		int r = r+x;
+		r = r+x;
+=======
+	public void dec(int x) {
+		r = r-x; // Decrement method
+>>>>>>> origin/master
 	}
 }
