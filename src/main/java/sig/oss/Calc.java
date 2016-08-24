@@ -9,7 +9,7 @@ public class Calc {
 		return x-y;
 	}
 
-	public int mul(int x, int y) { //mul method
+	public int mul(int x, int y) { //mul method 1 -- README1 branch
 		return x*y;
 	}
 }
