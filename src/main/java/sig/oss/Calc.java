@@ -1,6 +1,9 @@
 /* OSS Java prac - Implement Cacluation */
 
 public class Calc {
+	private:
+		int r = 0;
+		
 	public int add(int x, int y) { //add method
 		return x+y;
 	}
